@@ -14,3 +14,4 @@ This data pack aims to improve that while staying within the reasonable limits o
 # Warnings
 - This datapack uses /forceload to load and unload chunks, so if you or a datapack that you have also uses that, there will be interference.
 - If you leave a minecart with chest or a minecart with a mob on top of a rail, even if it's stationary, its chunk will still be loaded, so be careful with lag!
+- If you want the data pack but without the load chuncks feature, you can try this fork made by *@pigupp*: https://github.com/pigupp/vanillaplusminecarts-noload
