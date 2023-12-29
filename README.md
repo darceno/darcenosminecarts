@@ -17,7 +17,7 @@ And If that's too for you, there's also a slower version with the same features,
 ### Autonomy
 Both minecart with a mob aboard and minecart with chest will automatically load surrounding chunks if they're on rails, making it possible for them to cross long distances without the need for a player to be near by.
 
-Here's a pig traveling for a thousand blocks all by itself:
+Here's a pig traveling 1000 blocks all by itself:
 
 ![Pig loading chunks](./images/pigloadingchunks.gif)
 
