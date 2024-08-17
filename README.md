@@ -29,8 +29,10 @@ This mod does not affect empty minecarts, naturally generated minecarts with che
 
 ## FAQ and Notes
 - **Can I include it in my modpack?** Of course. 
-- **Is it safe to use?** Yes, and it is also totally interchangeable with vanilla worlds. Adding (or removing) it to an existing world won't cause any problems. The only thing to keep in mind is if you use command blocks with /forceload, as there will be interference with the functions used by this datapack/mod.
+- **Is it safe to use?** Yes, and it is also totally interchangeable with vanilla worlds. Adding or removing it to an existing world won't cause any problems (but read the last note). The only thing to keep in mind is if you use command blocks with /forceload, as there will be interference with the functions used by this datapack/mod.
 - **Does the mod work on multiplayer?** Yes, and as it is originally a datapack, it is 100% serverside, so the client doesn't need to have it installed.
 - **Why was the name changed?** CurseForge wouldn't accept it as "Vanilla Plus Minecarts", and it was a very generic name anyways.
 - **Also remember** that if you leave a minecart with a chest/minecart with a mob on top of a rail, even if it's stationary, its chunk will still be loaded. If done excessively, this can cause lag, so it's better to avoid leaving them around carelessly.
-- **Big thanks to [catgirlsky](https://github.com/catgirlsky) for her contributions**.
+
+**Uninstalling**
+- After removing the datapack from an existing world or uninstalling the mod, run the command */forceload remove all*. This is just to ensure that no chunks are left loaded (since the mod will no longer be there to automatically unload them).
