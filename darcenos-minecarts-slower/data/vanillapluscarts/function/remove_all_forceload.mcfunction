@@ -1,4 +1,4 @@
-execute store success storage vanillapluscarts:global success byte 1 run function vanillapluscarts:forceload_remove with storage vanillapluscarts:global chunks[0]
+execute run function vanillapluscarts:forceload_remove with storage vanillapluscarts:global chunks[0]
 
 # pop
 data remove storage vanillapluscarts:global chunks[0]
