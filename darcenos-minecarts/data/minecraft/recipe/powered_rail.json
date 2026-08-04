@@ -1,25 +1,17 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "misc",
-  "key": {
-    "#": {
-      "item": "minecraft:stick"
-    },
-    "R": {
-      "item": "minecraft:redstone"
-    },
-    "X": {
-      "item": "minecraft:gold_ingot"
-    }
-  },
   "pattern": [
-    "X X",
-    "X#X",
-    "XRX"
+    "A A",
+    "ABA",
+    "ACA"
   ],
-  "result": {
-    "count": 12,
-    "id": "minecraft:powered_rail"
+  "key": {
+    "A": "minecraft:gold_ingot",
+    "B": "minecraft:stick",
+    "C": "minecraft:redstone"
   },
-  "show_notification": true
+  "result": {
+    "id": "minecraft:powered_rail",
+    "count": 16
+  }
 }
